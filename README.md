@@ -22,3 +22,7 @@ Blockchain - que gerencia a mineração, ou seja, a adição de pacotes ao fluxo
 Obs: Como as mensagens só serão decriptadas pelo portador da chave privada, encaminhar mensagem de outras pessoas adiciona anonimato a quem realmente enviou a mensagem.
 
 Atualmente o projeto está parado devido a limitação das chaves RSA em encriptar um número muito pequeno de bytes e a necessidade de o encaminhamento de uma mesnagem ser encriptado dobra o tamanho do pacote a cada encriptação.
+
+Para rodar utilize
+
+node bc.js
