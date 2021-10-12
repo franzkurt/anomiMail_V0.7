@@ -14,11 +14,11 @@ node bc.js
 ### Fluxo base
 Usuário gera 3 mensagens -> coloca no pacote -> entrega o pacote a rede (blockchain)
 
-  1. Uma mensagem possui:
+  Uma mensagem possui:
     - mensagem em texto plano
     - uma chave publica para resposta (que é gerada apenas para esta conversa)
 
-  2. Cada participante entrega 1 pacote que deve ter 3 cartas ao blockchain.
+  Cada participante entrega 1 pacote que deve ter 3 cartas ao blockchain.
   Caso não precise enviar 3 mensagens as outras duas serao geradas ou encaminhadas de outros
 
 ![](https://img.icons8.com/bubbles/2x/workflow.png)
@@ -42,7 +42,7 @@ Crawler_V1/
   - **Blockchain** - que gerencia a mineração, ou seja, a adição de pacotes ao fluxo.
 
 Obs: Como as mensagens só serão decriptadas pelo portador da chave privada, encaminhar mensagem de outras pessoas adiciona anonimato a quem realmente enviou a mensagem.
-
+![](https://img.icons8.com/clouds/2x/todo-list.png)
 ### TODO
 Atualmente o projeto está parado devido a limitação das chaves RSA em encriptar um número muito pequeno de bytes e a necessidade de o encaminhamento de uma mesnagem ser encriptado dobra o tamanho do pacote a cada encriptação. A arquitetura do projeto precisa ser modificada para comportar encriptação simétrica e troca da chave simétrica apenas usando a chave assimética RSA.
 - [x] Definição e implementação das classes básicas message, packet e letter
