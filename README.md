@@ -12,7 +12,6 @@ npm install criptojs -g
 node bc.js
 ```
 ### Fluxo base
-![](https://img.icons8.com/bubbles/2x/workflow.png)
 Usuário gera 3 mensagens -> coloca no pacote -> entrega o pacote a rede (blockchain)
 
   1. Uma mensagem possui:
@@ -22,6 +21,7 @@ Usuário gera 3 mensagens -> coloca no pacote -> entrega o pacote a rede (blockc
   2. Cada participante entrega 1 pacote que deve ter 3 cartas ao blockchain.
   Caso não precise enviar 3 mensagens as outras duas serao geradas ou encaminhadas de outros
 
+![](https://img.icons8.com/bubbles/2x/workflow.png)
 ### Repositório
 ```
 Crawler_V1/
