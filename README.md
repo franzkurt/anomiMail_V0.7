@@ -1,23 +1,26 @@
+## Projeto de Chat Anônimo :neckbeard:
 
-OBJETIVO:
-  Enviar mensagem anonimamente em um fluxo único utilizando uma blockchain para
-evitar a adulteração de mensagens durante o reenvio
+### Objetivo :speech_balloon:
+  Enviar mensagem não linkaveis e sem identificação de usuários
+  
+### Como funciona :trollface:
+Utilizando um fluxo único de mensagens sobre uma blockchain é possível enviar texto para outros evitando a adulteração das mensagens durante o reenvio e rentabilizando aqueles que decidirem retransmitir os pacotes (rotear).
 
-FLUXO DO CHAT:
-  Gera 3 mensagens -> coloca no pacote -> entrega o pacote ao blockchain stream
+### Fluxo base
+  Usuário gera 3 mensagens -> coloca no pacote -> entrega o pacote a rede (blockchain)
 
-Uma mensagem possui:
-  - mensagem em texto plano
-  - uma chave publica para resposta (que é gerada apenas para esta conversa)
+  1. Uma mensagem possui:
+    - mensagem em texto plano
+    - uma chave publica para resposta (que é gerada apenas para esta conversa)
 
-Cada participante entrega 1 pacote que deve ter 3 cartas ao blockchain.
-  Caso não precise enviar 3 mensagens as outras duas serao geradas ou encami-
-nhadas de outros
+  2. Cada participante entrega 1 pacote que deve ter 3 cartas ao blockchain.
+  Caso não precise enviar 3 mensagens as outras duas serao geradas ou encaminhadas de outros
 
-As classes do projeto são:
-Letter - cartas que contém mensagens
-Packet - que gerenciam o envio do pacote e sua criação com determinado numero de mensagens
-Blockchain - que gerencia a mineração, ou seja, a adição de pacotes ao fluxo.
+### Código
+  As classes do projeto são:
+  **Letter** - cartas que contém mensagens
+  **Packet** - que gerenciam o envio do pacote e sua criação com determinado numero de mensagens
+  **Blockchain** - que gerencia a mineração, ou seja, a adição de pacotes ao fluxo.
 
 Obs: Como as mensagens só serão decriptadas pelo portador da chave privada, encaminhar mensagem de outras pessoas adiciona anonimato a quem realmente enviou a mensagem.
 
