@@ -11,9 +11,9 @@ Para rodar utilize
 npm install criptojs -g
 node bc.js
 ```
-![](https://img.icons8.com/bubbles/2x/workflow.png)
 ### Fluxo base
-  Usuário gera 3 mensagens -> coloca no pacote -> entrega o pacote a rede (blockchain)
+![](https://img.icons8.com/bubbles/2x/workflow.png)
+Usuário gera 3 mensagens -> coloca no pacote -> entrega o pacote a rede (blockchain)
 
   1. Uma mensagem possui:
     - mensagem em texto plano
